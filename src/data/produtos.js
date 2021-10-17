@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default [
   { id: 1, nome: "Caneta", preco: 7.5 },
   { id: 2, nome: "Lapis", preco: 1.5 },

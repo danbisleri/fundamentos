@@ -14,7 +14,7 @@ import Card from './components/layout/card'
 
 import Repeticao from './components/repeticao'
 import Condicao from './components/condicao';
-
+// eslint-disable-next-line
 export default props =>
     <div className="app">
         <Card titulo="Primeiro">

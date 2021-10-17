@@ -1,7 +1,7 @@
 import React from "react";
 
 import produtos from "../data/produtos";
-
+// eslint-disable-next-line
 export default props => {
 
     function getProdutosList() {
