@@ -14,6 +14,11 @@ import Card from './components/layout/card'
 
 import Repeticao from './components/repeticao'
 import Condicao from './components/condicao';
+
+import FInput from './form/input'
+
+import Contador from './contador/contador'
+
 // eslint-disable-next-line
 export default props =>
     <div className="app">
@@ -54,5 +59,13 @@ export default props =>
 
         <Card titulo="Condicao">
             <Condicao numero="10"></Condicao>
+        </Card>
+
+        <Card titulo="Input">
+            <FInput></FInput>
+        </Card>
+
+        <Card titulo="Contador">
+            <Contador passo={10}></Contador>
         </Card>
     </div>
